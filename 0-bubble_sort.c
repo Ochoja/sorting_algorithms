@@ -6,11 +6,10 @@
  * @size: size of array
  * Return: No return value
  */
-
 void bubble_sort(int *array, size_t size)
 {
-	int hold;
 	size_t j, i;
+	int hold;
 
 	if (size < 2)
 		return;
@@ -19,7 +18,7 @@ void bubble_sort(int *array, size_t size)
 	for (i = 0; i < size - 1; i++)
 	{
 		/*For loop for comparison*/
-		for (j = 0; j < size - i - 1; j++)
+		for (j = 0; j < size - 1; j++)
 		{
 			if (array[j] > array[j + 1])
 			{
