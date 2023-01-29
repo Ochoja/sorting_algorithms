@@ -6,6 +6,7 @@
  * @size: size of array
  * Return: No return value
  */
+
 void bubble_sort(int *array, size_t size)
 {
 	int hold;
